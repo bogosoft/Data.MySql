@@ -1,11 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<AssemblyVersion>1.0.1</AssemblyVersion>
+		<AssemblyVersion>1.1.0</AssemblyVersion>
 		<Authors>Clayton Roth</Authors>
 		<Company>Bogosoft</Company>
 		<Copyright>Copyright © 2018</Copyright>
 		<Description>MySQL-specific extensions and implementations of Bogosoft.Data types.</Description>
-		<FileVersion>1.0.1</FileVersion>
+		<FileVersion>1.1.0</FileVersion>
 		<PackageId>Bogosoft.Data.MySql</PackageId>
 		<PackageLicenseUrl>https://raw.githubusercontent.com/bogosoft/Data.MySql/master/LICENSE</PackageLicenseUrl>
 		<PackageProjectUrl>https://github.com/bogosoft/Data.MySql</PackageProjectUrl>
@@ -13,10 +13,10 @@
 		<RepositoryUrl>https://github.com/bogosoft/Data.MySql</RepositoryUrl>
 		<TargetFramework>netstandard2.0</TargetFramework>
 		<Title>Bogosoft.Data.MySql</Title>
-		<Version>1.0.1</Version>
+		<Version>1.1.0</Version>
 	</PropertyGroup>
 	<ItemGroup>
-		<PackageReference Include="Bogosoft.Data" Version="4.0.2.30" />
+		<PackageReference Include="Bogosoft.Data" Version="4.1.0.32" />
 		<PackageReference Include="MySql.Data" Version="8.0.13" />
 	</ItemGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard2.0|AnyCPU'">
